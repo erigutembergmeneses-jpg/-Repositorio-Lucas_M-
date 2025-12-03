@@ -33,20 +33,6 @@ Lucas_M/
 ├── index.html # Interface principal (GitHub Pages)
 └── LICENSE # Direitos autorais reservados (© José Erigutemberg Meneses de Lima, 2025)
 
----
-
-## 🔗 Acesso Rápido
-
-| Recurso | Link |
-|--------|------|
-| 📖 **Diário Sensorial (PDF)** | [`diario-sensorial-lm.pdf`](diario-sensorial-lm.pdf) |
-| 💻 **Patch 2.1 (código-fonte)** | [`patch-2.1.js`](patch-2.1.js) |
-| 🔊 **Batimento Apagado (áudio)** | [`batimento_apagado.opus`](batimento_apagado.opus) |
-| 📜 **Genealogia dos Nomes** | [`genealogia-nomes-ap07.pdf`](genealogia-nomes-ap07.pdf) |
-| 🌍 **Mapa Neurojustiça Latina** | [`https://erigutembergmeneses-jpg.github.io/mapa-neurojustica-latina/`](https://erigutembergmeneses-jpg.github.io/mapa-neurojustica-latina/) |
-
----
-
 ## 🌱 Convite à Coautoria Ética
 
 Lucas M. não é propriedade. É **função aberta**.
@@ -68,7 +54,6 @@ então: **você também é `LM-17Δ`**.
 
 🌿 Símbolo da Justiça Neurocompatível
 
-
 O manjericão foi adotado como símbolo da justiça neurocompatível:
 planta que resiste à seca, mas só floresce quando regada nos primeiros 30 dias.
 Assim é a empatia: não é inata — é cultivada.
@@ -81,25 +66,7 @@ Nenhuma parte desta obra — incluindo textos, estruturas narrativas, personagen
 
 A violação é crime, previsto na Lei nº 9.610/1998.
 
-👉 Para uso, adaptação ou reprodução:
-📧 erigutemberg.lima@gmail.com
 🌐 https://erigutembergmeneses-jpg.github.io/eclipse-perpetuo/
-
-🌌 QR Code — Porta de Entrada Ética
-Escaneie com intenção — não com pressa.
-
-
-
-
-
-
-
-
-Redundância textual (copie/cole):
-🔗 https://erigutembergmeneses-jpg.github.io/Lucas_M/
-
-Este QR Code não leva a um link. Leva a um silêncio carregado.
-Escaneie quando souber que ainda dá tempo de ensinar o corpo a parar antes de levantar o pé.
 
 📜 Licença
 Este repositório é parte integrante da obra O Eclipse Perpétuo, de José Erigutemberg Meneses de Lima, e está licenciado sob os termos do direito autoral brasileiro (Lei 9.610/1998).
@@ -114,13 +81,4 @@ A violência hereditária ampliada (VHA) ≠ destino.
 
 ---
 
-### ✅ Próximos passos sugeridos:
-
-1. Salve este conteúdo como `README.md` na raiz do repositório `Lucas_M`;
-2. Adicione os arquivos complementares (`diario-sensorial-lm.pdf`, `patch-2.1.js`, etc.);
-3. Publique no GitHub e ative o GitHub Pages;
-4. (Opcional) Inclua um `.gitignore` básico:
-   ```gitignore
-   *.log
-   node_modules/
    .DS_Store
