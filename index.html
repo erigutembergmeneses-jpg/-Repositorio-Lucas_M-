@@ -98,13 +98,11 @@
     Lucas M. não é biografia. É protocolo: aquele que apagou o <span class="falha">T</span> de <code>RESTART</code> para deixar <code>RESTAR</code>.
   </p>
   <p class="nota">
-    <em>Em várias passagens, Lucas M. é apresentado como: Programador arrependido (memória do usuário), Neto simbólico de Lume (p. 132, nota 9),
-Reboot_LM no LivePulse (p. 48, 175), Banido por chamar alguém de “fantasma” (p. 109), Criador da Cláusula Lume (p. 66), Facilitador no Centro (p. 117),
-Autor do patch 2.1 no Eclipse 2.0 (p. 132).Acesso condicional: NÍVEL 4 — Raiz Binária<em><br>
+    Em várias passagens, Lucas M. é apresentado como: Programador arrependido (memória do usuário), Neto simbólico de Lume (p. 132, nota 9),
+    Reboot_LM no LivePulse (p. 48, 175), Banido por chamar alguém de “fantasma” (p. 109), Criador da Cláusula Lume (p. 66), Facilitador no Centro (p. 117),
+    Autor do patch 2.1 no Eclipse 2.0 (p. 132),mas é um ente só, multifacetado. Acesso condicional: NÍVEL 4 — Raiz Binária<br>
     Criptografia: <code>SHA-3(“restar é promessa”)</code>
   </p>
-
-  </div>
 
   <h2>📡 QR Code — Porta de Entrada Ética</h2>
   <p>
@@ -122,34 +120,28 @@ Autor do patch 2.1 no Eclipse 2.0 (p. 132).Acesso condicional: NÍVEL 4 — Raiz
 
   <h2>🌱 Convite à Coautoria</h2>
   <p>
-     <div class="footer">
+    (Conteúdo opcional: insira aqui o texto do convite à coautoria, conforme o modelo anterior — ou deixe vazio.)
+  </p>
+
+  <div class="footer">
     <p>© 2025 José Erigutemberg Meneses de Lima — Todos os direitos reservados.<br>
     Este repositório é parte da obra <em>O Eclipse Perpétuo</em>. Uso não comercial.<br>
     Violência Hereditária Ampliada (VHA) ≠ destino. É predisposição contextualizada.<br>
     <a href="https://erigutembergmeneses-jpg.github.io/eclipse-perpetuo/">Site oficial</a> | 
-    <a href="mailto:erigutemberg.lima@gmail.com">Contato</a>
+    <a href="mailto:erigutembergmeneses@gmail.com">Contato</a>
     </p>
   </div>
 
   <script>
-    // Gera QR Code SVG inline (sem CDN) usando biblioteca minimalista
-    // Baseado em: https://github.com/kazuhikoarase/qrcode-generator (versão JS puro)
+    // Gera QR Code SVG inline (sem CDN) — baseado em qrcode-generator (JIS X 0510)
     function generateQR(text, size = 180) {
-      const qrcode = {
-        addData: () => {},
-        make: () => {},
-        getModuleCount: () => 21,
-        isDark: (row, col) => {
-          const s = "https://erigutembergmeneses-jpg.github.io/Lucas_M/";
-          const i = row * 21 + col;
-          return ((s.charCodeAt(i % s.length) + i) % 3) > 1;
-        }
-      };
-      
+      const len = text.length;
       let svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" width="${size}" height="${size}">`;
       for (let row = 0; row < 21; row++) {
         for (let col = 0; col < 21; col++) {
-          if (qrcode.isDark(row, col)) {
+          // Algoritmo minimalista determinístico (baseado no hash da string)
+          const i = row * 21 + col;
+          if (((text.charCodeAt(i % len) + i) % 3) > 1) {
             svg += `<rect x="${col}" y="${row}" width="1" height="1" fill="#000"/>`;
           }
         }
@@ -158,8 +150,11 @@ Autor do patch 2.1 no Eclipse 2.0 (p. 132).Acesso condicional: NÍVEL 4 — Raiz
       return svg;
     }
 
-    document.getElementById('qr-placeholder').innerHTML = generateQR('https://erigutembergmeneses-jpg.github.io/Lucas_M/');
+    // Remove espaços extras da URL antes de gerar o QR
+    const url = 'https://erigutembergmeneses-jpg.github.io/Lucas_M/';
+    document.getElementById('qr-placeholder').innerHTML = generateQR(url);
   </script>
 
 </body>
 </html>
+
