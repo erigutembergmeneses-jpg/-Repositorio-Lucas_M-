@@ -76,9 +76,6 @@ Reprodução total ou parcial só com autorização escrita.
 
 A violência hereditária ampliada (VHA) ≠ destino.
 É predisposição contextualizada — e, portanto, modificável.
-
 🌿 Regue o vaso do meio. Mesmo na seca.
 
 ---
-
-   .DS_Store
